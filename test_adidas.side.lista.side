@@ -1,0 +1,285 @@
+{
+  "id": "8fa4f0a7-4ea7-49b8-94a8-4ac3a4d7d607",
+  "version": "2.0",
+  "name": "test adidas",
+  "url": "https://www.adidas.co/zapatillas_y_tenis-running-mujer",
+  "tests": [{
+    "id": "0069ca5d-bf6b-45c7-85dc-18a54b93263e",
+    "name": "lista de deseos",
+    "commands": [{
+      "id": "b6d8f4d0-9147-4eec-b446-2cbf1e397134",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.adidas.co/zapatillas_y_tenis-running-mujer",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36222d54-3984-4582-9215-06ba93707fca",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a511e3e2-35aa-4135-bea2-1a48761fb89f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gl-modal__overlay",
+      "targets": [
+        ["css=.gl-modal__overlay", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54c148d4-a704-4876-aa4b-66b5f5327681",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gl-modal__overlay",
+      "targets": [
+        ["css=.gl-modal__overlay", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf80e7b7-23a8-402d-bcaf-8a8003d2e810",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gl-modal__close > .gl-icon__wrapper",
+      "targets": [
+        ["css=.gl-modal__close > .gl-icon__wrapper", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1df655eb-4e01-468a-8bd1-1606e1404b45",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,301)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0010388c-3674-4101-9776-49700c7b6113",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,298)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3df26951-212c-4716-acd7-aa301d406825",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show-variation-carousel .glass-product-card__image-hover",
+      "targets": [
+        ["css=.show-variation-carousel .glass-product-card__image-hover", "css:finder"],
+        ["xpath=(//img[@alt='Tenin Running Switch Run Gris Running'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div/div[2]/div/div/div[5]/div/div/div/div/div/div/div/a/img[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div/div/div/a/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5fff845-0613-4ee4-8ea4-34a04aa64190",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6af1a0a3-99d2-4afb-a4d8-cc38cee1d26d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,46)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fe02f39-39f8-4edc-b8d4-d0e20c97a2c6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,561)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edbb2d72-acbe-42ff-8814-67e9db70cab4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gl-cta .gl-icon__wrapper > .gl-icon__wrapper",
+      "targets": [
+        ["css=.gl-cta .gl-icon__wrapper > .gl-icon__wrapper", "css:finder"],
+        ["xpath=//div[@id='add-to-bag']/div/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//section/div[3]/div/div/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22650310-d6f6-4041-9bd1-953223bfba46",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gl-modal__close > .gl-icon__wrapper",
+      "targets": [
+        ["css=.gl-modal__close > .gl-icon__wrapper", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb565af0-5f34-4552-bd2a-011bd24a706b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gl-modal__close > .gl-icon__wrapper",
+      "targets": [
+        ["css=.gl-modal__close > .gl-icon__wrapper", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad16de88-437b-48d8-833d-b757a9ddbfe3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#add-to-bag > .gl-cta--primary",
+      "targets": [
+        ["css=#add-to-bag > .gl-cta--primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='add-to-bag']/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6c4c581-3573-4c8f-ade7-03720d6ccb95",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#add-to-bag > .gl-cta--primary",
+      "targets": [
+        ["css=#add-to-bag > .gl-cta--primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='add-to-bag']/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "364c800f-866e-4511-999c-5b305b1488ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gl-cta .fit-container___1NYM_",
+      "targets": [
+        ["css=.gl-cta .fit-container___1NYM_", "css:finder"],
+        ["xpath=//div[@id='add-to-bag']/div/div/div", "xpath:idRelative"],
+        ["xpath=//section/div[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e06ae3e-cd94-40e7-90d1-c31d69199ba1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gl-modal__overlay",
+      "targets": [
+        ["css=.gl-modal__overlay", "css:finder"],
+        ["xpath=(//button[@type='button'])[14]", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57e10967-30e2-408e-96de-3ae071db6159",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gl-modal__overlay",
+      "targets": [
+        ["css=.gl-modal__overlay", "css:finder"],
+        ["xpath=(//button[@type='button'])[14]", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4da5ee6d-ac97-4ef5-a482-dd091b2ef8fd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,661)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "841db11d-cd8b-49fa-ba65-296e522ad2f7",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.gl-modal__main",
+      "targets": [
+        ["css=.gl-modal__main", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "406,251.703125"
+    }, {
+      "id": "48976ac7-19d1-40ec-817e-cdd66969c13a",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.gl-modal__main",
+      "targets": [
+        ["css=.gl-modal__main", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "406,251.703125"
+    }, {
+      "id": "c48836d2-3195-4358-9b1a-c27c19119bd2",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.gl-modal__main",
+      "targets": [
+        ["css=.gl-modal__main", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "406,251.703125"
+    }, {
+      "id": "b3865e99-1487-4f0d-a7ab-0f0809a9d822",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gl-cta--full-width:nth-child(2) > .gl-icon__wrapper",
+      "targets": [
+        ["css=.gl-cta--full-width:nth-child(2) > .gl-icon__wrapper", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div[2]/div/div/div[2]/div/div[3]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a11324ba-9430-4b1c-ab55-38212b8803fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.JDAKTe:nth-child(1) .w1I7fb",
+      "targets": [
+        ["css=.JDAKTe:nth-child(1) .w1I7fb", "css:finder"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/ul/li/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//li/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6af23a99-f9bc-44f8-bacf-58484c32fd27",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,336)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de655395-df0c-4ef6-8b8c-6e33a31854c2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1c01f84d-3a8c-4477-a8dd-4295af5b810f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.adidas.com.ar/zapatillas-running-mujer", "https://www.adidas.co/zapatillas_y_tenis-running-mujer"],
+  "plugins": []
+}

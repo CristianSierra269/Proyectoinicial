@@ -1,0 +1,296 @@
+{
+  "id": "0a2ed994-d354-4b39-8eb2-64a858d54168",
+  "version": "2.0",
+  "name": "adidas",
+  "url": "https://www.adidas.com.ar/cart",
+  "tests": [{
+    "id": "80f9d32a-86f2-460d-ab56-37870658afe6",
+    "name": "01 REGISTRO USUARIO NUEVO",
+    "commands": [{
+      "id": "3c7b37cb-27bf-4125-994d-1de12e65f8c2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.adidas.com.ar/cart",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b8cca81-cb09-45f9-ab23-62c3d13cebe3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7154000a-57b4-45d2-b424-ea8730b4476a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_user_icon_sm8yz_1 > .gl-icon__wrapper",
+      "targets": [
+        ["css=.\\_user_icon_sm8yz_1 > .gl-icon__wrapper", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div/header/div[2]/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57fb1e81-468a-4284-807e-ee1f7e7612e9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,147)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3c49f3f-0a84-46f2-9280-ce271b5d33ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gl-cta:nth-child(4) > .gl-cta__content",
+      "targets": [
+        ["css=.gl-cta:nth-child(4) > .gl-cta__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div[2]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e982e89-e6d4-4e9e-91dd-3437e3d80b35",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45a094df-f195-4c3a-b5fc-820b55ddb1d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=registration-firstname-field",
+      "targets": [
+        ["id=registration-firstname-field", "id"],
+        ["name=registration-firstname-field", "name"],
+        ["css=#registration-firstname-field", "css:finder"],
+        ["xpath=//input[@id='registration-firstname-field']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div[4]/div/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "jaime"
+    }, {
+      "id": "79728702-038b-4780-b062-b2d9b882a012",
+      "comment": "",
+      "command": "click",
+      "target": "id=registration-lastname-field",
+      "targets": [
+        ["id=registration-lastname-field", "id"],
+        ["name=registration-lastname-field", "name"],
+        ["css=#registration-lastname-field", "css:finder"],
+        ["xpath=//input[@id='registration-lastname-field']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div[4]/div/div[5]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "983f1d39-18fb-4b9d-8567-be4c70486ebd",
+      "comment": "",
+      "command": "type",
+      "target": "id=registration-lastname-field",
+      "targets": [
+        ["id=registration-lastname-field", "id"],
+        ["name=registration-lastname-field", "name"],
+        ["css=#registration-lastname-field", "css:finder"],
+        ["xpath=//input[@id='registration-lastname-field']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div[4]/div/div[5]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/input", "xpath:position"]
+      ],
+      "value": "gomez"
+    }, {
+      "id": "3a8b9805-7dbc-48a5-8f93-5ddeb9dbc7d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=registration-dob-fields-day",
+      "targets": [
+        ["id=registration-dob-fields-day", "id"],
+        ["name=day", "name"],
+        ["css=#registration-dob-fields-day", "css:finder"],
+        ["xpath=//input[@id='registration-dob-fields-day']", "xpath:attributes"],
+        ["xpath=//div[@id='registration-dob-fields']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10d5e1dd-ce36-47dd-a314-17de0184534f",
+      "comment": "",
+      "command": "type",
+      "target": "id=registration-dob-fields-day",
+      "targets": [
+        ["id=registration-dob-fields-day", "id"],
+        ["name=day", "name"],
+        ["css=#registration-dob-fields-day", "css:finder"],
+        ["xpath=//input[@id='registration-dob-fields-day']", "xpath:attributes"],
+        ["xpath=//div[@id='registration-dob-fields']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "1ed32739-2f41-433f-af17-5dea93256f80",
+      "comment": "",
+      "command": "type",
+      "target": "id=registration-dob-fields-month",
+      "targets": [
+        ["id=registration-dob-fields-month", "id"],
+        ["name=month", "name"],
+        ["css=#registration-dob-fields-month", "css:finder"],
+        ["xpath=//input[@id='registration-dob-fields-month']", "xpath:attributes"],
+        ["xpath=//div[@id='registration-dob-fields']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "02"
+    }, {
+      "id": "c28f6b42-610e-4b5b-9687-1be3887b8749",
+      "comment": "",
+      "command": "type",
+      "target": "id=registration-dob-fields-year",
+      "targets": [
+        ["id=registration-dob-fields-year", "id"],
+        ["name=year", "name"],
+        ["css=#registration-dob-fields-year", "css:finder"],
+        ["xpath=//input[@id='registration-dob-fields-year']", "xpath:attributes"],
+        ["xpath=//div[@id='registration-dob-fields']/div/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "1989"
+    }, {
+      "id": "162eaeee-9463-4173-829c-b74a54147e16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gl-radio-input__option:nth-child(1) > .gl-radio-input__label",
+      "targets": [
+        ["css=.gl-radio-input__option:nth-child(1) > .gl-radio-input__label", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div[4]/div/div[9]/section/div/div/label/span", "xpath:idRelative"],
+        ["xpath=//section/div/div/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f6462ae-91f0-4543-8166-66ac0f9d5264",
+      "comment": "",
+      "command": "click",
+      "target": "id=registration-email-field",
+      "targets": [
+        ["id=registration-email-field", "id"],
+        ["name=registration-email-field", "name"],
+        ["css=#registration-email-field", "css:finder"],
+        ["xpath=//input[@id='registration-email-field']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div[4]/div/div[11]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73ea095a-e238-4688-90f0-2cc40b25ae0b",
+      "comment": "",
+      "command": "type",
+      "target": "id=registration-email-field",
+      "targets": [
+        ["id=registration-email-field", "id"],
+        ["name=registration-email-field", "name"],
+        ["css=#registration-email-field", "css:finder"],
+        ["xpath=//input[@id='registration-email-field']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div[4]/div/div[11]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/input", "xpath:position"]
+      ],
+      "value": "jaime.gomez.villa@gmail.com"
+    }, {
+      "id": "20c4f327-43a9-416e-a87c-fe7e200b858d",
+      "comment": "",
+      "command": "click",
+      "target": "id=registration-password-field",
+      "targets": [
+        ["id=registration-password-field", "id"],
+        ["name=registration-password-field", "name"],
+        ["css=#registration-password-field", "css:finder"],
+        ["xpath=//input[@id='registration-password-field']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div[4]/div/div[12]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "148e1602-ae4f-49b2-b85e-7c65a88aef15",
+      "comment": "",
+      "command": "type",
+      "target": "id=registration-password-field",
+      "targets": [
+        ["id=registration-password-field", "id"],
+        ["name=registration-password-field", "name"],
+        ["css=#registration-password-field", "css:finder"],
+        ["xpath=//input[@id='registration-password-field']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div[4]/div/div[12]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Aslam1989."
+    }, {
+      "id": "b15d23a3-0d38-4eb3-bf64-65c02c891a36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gl-form-item:nth-child(1) .gl-checkbox__label",
+      "targets": [
+        ["css=.gl-form-item:nth-child(1) .gl-checkbox__label", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div[4]/div/div[13]/div/div/label", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Me gustaría recibir las últimas ofertas y noticias de productos adidas a través de mensajes de marketing personalizados por correo electrónico de adidas Argentina S.A. (“adidas”) y/o de Runtastic Gmbh (“Runtastic”) y de anuncios que se muestran en medios digitales según mis interacciones con adidas y/o Runtastic y mi comportamiento en plataformas como Google, Facebook e Instagram. Sé que puedo optar por dejar de compartir mis datos personales en cualquier momento. Leer más')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64fecc69-5bd4-443d-b03b-b26440a18a5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gl-form-item:nth-child(2) .gl-checkbox__label",
+      "targets": [
+        ["css=.gl-form-item:nth-child(2) .gl-checkbox__label", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div[4]/div/div[13]/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//div[13]/div[2]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'He leído y acepto los Términos y Condiciones de adiClub y la Política de privacidad de adidas.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43a39056-29c9-490f-9a06-46413f743784",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gl-vspace-bpall-small > .gl-cta__content",
+      "targets": [
+        ["css=.gl-vspace-bpall-small > .gl-cta__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div[4]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2607fc48-a51b-4664-a1cf-e2deef884875",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gl-vspace-bpall-small > .gl-cta__content",
+      "targets": [
+        ["css=.gl-vspace-bpall-small > .gl-cta__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div[4]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0a2d130-435f-4f73-8a77-50ad147cd7ec",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "089bed44-9587-461b-91a8-4fc655cd60a1",
+      "comment": "",
+      "command": "assertText",
+      "target": "ccs=.result",
+      "targets": [],
+      "value": "HOLA"
+    }]
+  }],
+  "suites": [{
+    "id": "ec265096-a1a4-4e0b-9892-4ad6438abee4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["80f9d32a-86f2-460d-ab56-37870658afe6"]
+  }],
+  "urls": [],
+  "plugins": []
+}
