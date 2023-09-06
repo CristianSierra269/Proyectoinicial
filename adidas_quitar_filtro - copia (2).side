@@ -1,0 +1,112 @@
+{
+  "id": "76ff8027-b609-47c2-8ba4-bdc2e6ee19b7",
+  "version": "2.0",
+  "name": "adidas_quitar_filtro",
+  "url": "https://www.adidas.com.ar/",
+  "tests": [{
+    "id": "bd99cd99-e558-438c-9fbf-b59d20ec9729",
+    "name": "03_quiitar_filtro_compra",
+    "commands": [{
+      "id": "67a4edb9-c99b-402d-9307-5671a9a336bd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.adidas.com.ar/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b57099e7-1ef0-4e50-8790-0bc84cab7b4e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28720077-15cf-4860-9687-8168ea46c691",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.grid-container:nth-child(8) .gl-cta__content",
+      "targets": [
+        ["css=.grid-container:nth-child(8) .gl-cta__content", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[6]/section/div[2]/div/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e272185b-7571-474a-abb9-0641fcf451d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid-container:nth-child(8) .gl-cta__content",
+      "targets": [
+        ["css=.grid-container:nth-child(8) .gl-cta__content", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[6]/section/div[2]/div/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c115efb0-5b6f-4ba4-8eba-6fa3f05431d0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gl-cta--secondary > .gl-cta__content",
+      "targets": [
+        ["css=.gl-cta--secondary > .gl-cta__content", "css:finder"],
+        ["xpath=//div[@id='main-content']/div[2]/div[2]/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e35b5be2-ae36-495b-9621-0fee23acaf85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gl-cta--secondary > .gl-cta__content",
+      "targets": [
+        ["css=.gl-cta--secondary > .gl-cta__content", "css:finder"],
+        ["xpath=//div[@id='main-content']/div[2]/div[2]/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75237739-318f-400e-a86e-e70b36269048",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gl-cta--secondary > .gl-cta__content",
+      "targets": [
+        ["css=.gl-cta--secondary > .gl-cta__content", "css:finder"],
+        ["xpath=//div[@id='main-content']/div[2]/div[2]/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8729a4ab-4334-47fa-ba49-723c8ecfaa09",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.item_inner___1tIKx > .gl-icon__wrapper > .gl-icon__wrapper",
+      "targets": [
+        ["css=.item_inner___1tIKx > .gl-icon__wrapper > .gl-icon__wrapper", "css:finder"],
+        ["xpath=//div[@id='main-content']/div[2]/div[3]/div/div/div/div[3]/div/div/div[2]/div/div/a/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//a/div/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e9d3f10-cc0e-4262-9740-715a52034410",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item_inner___1tIKx > .gl-icon__wrapper > .gl-icon__wrapper",
+      "targets": [
+        ["css=.item_inner___1tIKx > .gl-icon__wrapper > .gl-icon__wrapper", "css:finder"],
+        ["xpath=//div[@id='main-content']/div[2]/div[3]/div/div/div/div[3]/div/div/div[2]/div/div/a/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//a/div/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "51a5e8a0-7061-416c-9989-d5d9cc1f7172",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bd99cd99-e558-438c-9fbf-b59d20ec9729"]
+  }],
+  "urls": [],
+  "plugins": []
+}

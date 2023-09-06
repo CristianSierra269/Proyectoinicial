@@ -1,0 +1,155 @@
+{
+  "id": "cb1e8eb7-110b-42b2-832d-9281fc40bc9d",
+  "version": "2.0",
+  "name": "adidas_agregar producto al carrito de compras",
+  "url": "https://www.adidas.com.ar",
+  "tests": [{
+    "id": "e947573f-0903-45e6-b2f5-4a90b4c1f647",
+    "name": "Agregar producto a carrito de compras",
+    "commands": [{
+      "id": "1847653f-681b-4177-a05a-5227bbf9ea5a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09a14748-eb0f-4d81-8e77-c390d2ae706b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e91fb8c5-6a67-48cb-809a-220d16ad8f6b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,96.02145385742188)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c26e400e-0a53-4e03-b98a-fb61292a6ca6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid-container:nth-child(8) .gl-icon__wrapper",
+      "targets": [
+        ["css=.grid-container:nth-child(8) .gl-icon__wrapper", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[6]/section/div[2]/div/div[2]/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "394af4f1-a8e3-4a45-ba8c-9810bd7cafea",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,261.6000061035156)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61e76e3c-67f2-40a8-8db6-b8bbd705798c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid-item:nth-child(1) .product-card-image:nth-child(1)",
+      "targets": [
+        ["css=.grid-item:nth-child(1) .product-card-image:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='Camiseta Titular  River Plate 23/24 Blanco Hombre Fútbol']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div[2]/div[3]/div/div/div/div/div/div/div/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bafd0b7-9647-4fbc-891e-97d2cf4f0370",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ab5511b-d5d1-4abe-975a-b9aad6e73c7c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,392.4391174316406)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e87215e9-1f06-497b-a7c4-8ec4fcb67f0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected___3AW1I",
+      "targets": [
+        ["css=.selected___3AW1I", "css:finder"],
+        ["xpath=//div[@id='fixed-content']/span[2]/div[2]/section/div/div[2]/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,'L')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d126adc-c6bc-4147-ba1f-d7bfa5cf64a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gl-cta__content",
+      "targets": [
+        ["css=.gl-cta__content", "css:finder"],
+        ["xpath=//div[@id='add-to-bag']/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a65ef36-a897-422d-a344-a52b476945aa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gl-cta:nth-child(3)",
+      "targets": [
+        ["css=.gl-cta:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div[2]/div/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ac02676-7d8f-4cf4-8c7d-0065fc1ee893",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gl-cta:nth-child(3)",
+      "targets": [
+        ["css=.gl-cta:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div[2]/div/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1da9e121-8fc5-4d4d-b3ec-bee25434c450",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gl-vspace-bpall-small > .gl-cta__content",
+      "targets": [
+        ["css=.gl-vspace-bpall-small > .gl-cta__content", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div[2]/div/div/div[2]/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b40c036-7b17-4eb0-a5b2-0110d94a5fe8",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.cart-header__title___3OWX2:nth-child(2)",
+      "targets": [
+        ["css=.cart-header__title___3OWX2:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div[4]/div/div/header/div/div/div[2]/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": "TU CARRITO"
+    }]
+  }],
+  "suites": [{
+    "id": "e51fe143-c164-49da-a478-4198bf590956",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e947573f-0903-45e6-b2f5-4a90b4c1f647"]
+  }],
+  "urls": ["https://www.adidas.com.ar/"],
+  "plugins": []
+}
